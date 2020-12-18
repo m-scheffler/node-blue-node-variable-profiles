@@ -1,0 +1,14 @@
+{
+  "name": "node-blue-node-variable-profiles",
+  "version": "1.0.1",
+  "description": "This package provides a node for Node-BLUE to activate Homegear's variable profiles.",
+  "homepage": "https://github.com/Homegear/node-blue-node-variable-profiles",
+  "node-blue": {
+    "maxThreadCounts": {
+      "variable-profiles": 0
+    },
+    "nodes": {
+      "variable-profiles": "variable-profiles.php"
+    }
+  }
+}
